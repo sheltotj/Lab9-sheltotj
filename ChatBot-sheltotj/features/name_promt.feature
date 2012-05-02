@@ -8,7 +8,7 @@ Scenario: Verify the prompt shows up
   And the application exits
   Then the output should contain "What is your name?"
 
-Scenario: Prompt the user for name
+Scenario: Verify user is greeted
   Given the application is running
   When I type "Tyler"
   Then the output should contain "Hello, Tyler!"
