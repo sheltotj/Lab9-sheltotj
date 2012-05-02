@@ -11,4 +11,6 @@ puts "5. Global Thermonuclear War"
 num = gets.chomp
 if num == "5" 
  puts "BOOM!"
+else
+ puts "Im sorry #{name}, Im afraid I cant do that."
 end
