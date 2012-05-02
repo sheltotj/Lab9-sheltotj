@@ -11,4 +11,5 @@ Scenario: Verify the prompt shows up
 Scenario: Verify user is greeted
   Given the application is running
   When I type "Tyler"
+  And a game is selected
   Then the output should contain "Hello, Tyler!"

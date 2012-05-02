@@ -8,3 +8,7 @@ puts "2. Checkers"
 puts "3. Chess"
 puts "4. Theaterwide Tactical Warfare"
 puts "5. Global Thermonuclear War"
+num = gets.chomp
+if num == "5" 
+ puts "BOOM!"
+end

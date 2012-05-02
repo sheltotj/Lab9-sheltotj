@@ -5,7 +5,7 @@ Feature: Play a game
 
 Scenario: Verify games are listed
   Given the application is running
-  And a name is entered
+  And the application exits
   Then the output should contain "1. Falken's Maze\n2. Checkers\n3. Chess\n4. Theaterwide Tactical Warfare\n5. Global Thermonuclear War"
 
 Scenario: Verify right selection plays
