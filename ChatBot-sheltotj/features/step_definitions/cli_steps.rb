@@ -3,9 +3,9 @@ Given /^the application is running$/ do
 end
 
 Given /^the application exits$/ do
-  type("name")
+  type("Dave")
 end
 
 Given /^a name is entered$/ do
-  type("name")
+  type("Dave")
 end
