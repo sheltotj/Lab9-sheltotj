@@ -13,3 +13,9 @@ Scenario: Verify right selection plays
   And a name is entered
   When I type "5"
   Then the output should contain "BOOM!"
+
+Scenario: Verify right selection plays
+  Given the application is running
+  And a name is entered
+  When I type "4"
+  Then the output should contain "Im sorry Dave, Im afraid I cant do that"
